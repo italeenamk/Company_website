@@ -53,6 +53,19 @@
 .navbar-row nav ul li {
 	list-style: none;
 }
+.navbar-row nav ul li a:before {
+	content: '';
+	position: absolute;
+	bottom: -22px;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background-color: #281eb0;
+	transition: all ease 1s;
+}
+.navbar-row nav ul li a:hover:before {
+	width: 100%;
+}
 .navbar-row nav ul li a:hover {
 	color: #281eb0;
 }
@@ -63,7 +76,9 @@
 	font-size: 14px;
 	font-weight: 500;
 	transition: 0.5s;
+	position: relative;
 }
+
 
 
 
@@ -112,7 +127,7 @@
     border: 0;
     outline: 0;
     background: linear-gradient(45deg, #1a119e, #5046e3);
-    padding: 10px 34px;
+    padding: 12px 34px;
     border-radius: 37px;
     font-size: 13px;
     margin-top: 20px;
@@ -125,6 +140,29 @@
 .sidebar-img img {
 	width: 85%;
 	margin-top: -60px;
+}
+.bottom-btn {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+.bottom-btn button img {
+	width: 41px;
+}
+.bottom-btn button {
+	padding: 7px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 4px 7px 1px #80808042;
+    background: transparent;
+    cursor: pointer;
+}
+.bottom-btn button:hover {
+	background: linear-gradient(45deg, #1a119e, #5046e3);
+	z-index: -1;
+}
+.bottom-btn button:hover img {
+	z-index: 100;
 }
 
 
