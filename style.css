@@ -107,6 +107,7 @@
     font-size: 33px;
     font-weight: 400;
     letter-spacing: 1px;
+    margin-top: 24px;
 }
 .sidebar-text h1 {
 	color: #090b1fc9;
@@ -236,6 +237,119 @@
 
 
 
+
+/*-- services-card-div --*/
+
+
+
+.services-card-container {
+	background: url(imges/new-bcak.png);
+	/*height: 100vh;*/
+	background-size: cover;
+	background-position: center;
+	object-fit: cover;
+}
+.services-heading {
+	padding: 20px 10%;
+}
+.services-heading h4 {
+	color: #251cad91;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.services-heading h1 {
+	font-size: 35px;
+    font-weight: 900;
+    color: #3d3f4ee8;
+}
+.services-card-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 9%;
+	padding-top: 1%;
+}
+.three-card-div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.card-one {
+}
+.services-card {
+	padding: 25px 12px;
+    border-radius: 27px;
+    padding-bottom: 24px;
+    background: white;
+    box-shadow: 0px 4px 12px 2px #80808014;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.services-card:hover {
+	box-shadow: 0px 4px 7px 2px #80808066;
+}
+.services-card-text-img {
+	text-align: center;
+}
+.services-card-text-img img {
+	width: 97px;
+    margin-bottom: 11px;
+}
+.services-card h4 {
+	margin-bottom: 33px;
+    margin-top: 14px;
+    font-size: 15px;
+    color: #2c2e3c;
+}
+.services-card p {
+	font-size: 12px;
+    color: #2c2e3cde;
+}
+.services-card button {
+	color: #fff;
+    margin-left: 55%;
+    border: 0;
+    outline: 0;
+    background: linear-gradient(45deg, #1a119e, #5046e3d6);
+    border-radius: 37px;
+    font-size: 11px;
+    margin-top: 30px;
+    padding: 7px 20px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.card-one .services-card  {
+	margin: 10px 20px;
+	margin-bottom: 48px;
+}
+.card-two .services-card  {
+	margin: 10px 20px;
+	margin-bottom: 48px;
+}
+.card-three .services-card  {
+	margin: 10px 20px;
+	margin-bottom: 48px;
+}
+.services-card {}
+
+
+
+
+/*-- -------------- --*/
+
+
+
+
+
+
+
+
+
+
+/*-- top-navbar-div --*/
+
+/*-- -------------- --*/
 
 /*-- top-navbar-div --*/
 
