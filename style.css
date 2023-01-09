@@ -138,7 +138,7 @@
 	transform: scale(0.9);
 }
 .sidebar-img img {
-	width: 85%;
+	width: 105%;
 	margin-top: -60px;
 }
 .bottom-btn {
@@ -173,9 +173,69 @@
 
 
 
-/*-- top-navbar-div --*/
+/*-- top-bio-sidebar-div --*/
+
+
+.top-bio-sidebar-contanier {}
+.top-bio-sidebar-row {
+	display: flex;
+	padding: 20px 5%;
+	padding-top: 6%;
+	gap: -3rem;
+}
+.bio-sidebar-img img {
+	width: 100%;
+	margin-top: -60px;
+}
+.bio-sidebar-text {
+	top: 0;
+}
+.bio-sidebar-text h4 {
+	color: #251cad82;
+    font-size: 14px;
+    font-weight: 500;
+}
+.bio-sidebar-text h1 {
+	font-size: 37px;
+    font-weight: 900;
+    color: #3d3f4ee0;
+}
+.bio-sidebar-text p {
+	color: #424141b3;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 9px 0;
+    padding-bottom: 8px;
+}
+.bio-sidebar-text span {
+	color: #424141b3;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 9px 0;
+    padding-bottom: 8px;
+}
+.bio-sidebar-text button {
+	color: #fff;
+    border: 0;
+    outline: 0;
+    background: linear-gradient(45deg, #1a119e, #5046e3);
+    border-radius: 37px;
+    font-size: 11px;
+    margin-top: 30px;
+    padding: 10px 41px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    display: block;
+}
+
+
+
 
 /*-- -------------- --*/
+
+
+
+
 
 /*-- top-navbar-div --*/
 
