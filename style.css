@@ -281,13 +281,14 @@
 	padding: 25px 12px;
     border-radius: 27px;
     padding-bottom: 24px;
-    background: white;
+    background: #fff;
     box-shadow: 0px 4px 12px 2px #80808014;
     cursor: pointer;
     transition: 0.5s;
 }
 .services-card:hover {
-	box-shadow: 0px 4px 7px 2px #80808066;
+	/*box-shadow: 0px 4px 7px 2px #80808066;*/
+	box-shadow: 0px 4px 7px 2px #80808038;
 }
 .services-card-text-img {
 	text-align: center;
@@ -347,13 +348,159 @@
 
 
 
-/*-- top-navbar-div --*/
+/*-- pricing-page-div --*/
+
+
+.pricing-page-conatnier {
+	background: #d7e3e391;
+	margin-top: 130px;
+    padding-bottom: 35px;
+}
+.pricing-heading {
+	text-align: center;
+	padding-top: 40px;
+}
+.pricing-heading h4 {
+	color: #251cad91;
+    font-size: 15px;
+    font-weight: 600;
+}
+.pricing-heading h1 {
+	font-size: 34px;
+    color: #393b49fc;
+    font-weight: 700;
+    margin-top: 7px;
+}
+.pricing-page-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 9%;
+	padding-top: 1%;
+}
+.prcing-card {
+	padding: 57px 22px;
+    border-radius: 27px;
+    padding-bottom: 35px;
+    background: #fff;
+    box-shadow: 0px 4px 12px 2px #80808014;
+    cursor: pointer;
+    margin: 5px 38px;
+    transition: 0.5s;
+}
+.prcing-card:hover {
+	box-shadow: 0px 4px 12px 2px #8080804f;
+}
+.pricing-text {
+	text-align: center;
+}
+.pricing-text h4 {
+	font-size: 20px;
+    font-weight: 400;
+    color: #000000b5;
+}
+.pricing-text p {
+	font-size: 13px;
+    margin-top: 39px;
+    margin-bottom: 28px;
+    color: #00000082;
+}
+.pricing-text span {
+	font-size: 19px;
+    color: #261da8;
+    font-weight: 600;
+}
+.pricing-text button:hover {
+    background: linear-gradient(45deg, #1a119e, #5046e3d6);
+    color: #fff;
+    border: 1px solid #fff;
+    transition: 0.5s;
+}
+.pricing-text button {
+    margin-left: 28%;
+    display: block;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border: 1px solid #1a119e;
+    color: #110a76;
+    border-radius: 37px;
+    font-size: 11px;
+    margin-top: 22px;
+    margin-bottom: -12px;
+    padding: 9px 26px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
 
 /*-- -------------- --*/
 
-/*-- top-navbar-div --*/
+
+
+
+
+/*-- email-section-div --*/
+
+.email-section-contanier {
+	margin-top: 118px;
+	padding-bottom: 35px;
+}
+.email-section-heading {
+	text-align: center;
+}
+.email-section-heading h4 {
+	color: #251cad91;
+    font-size: 15px;
+    font-weight: 600;
+}
+.email-section-heading h1 {
+	font-size: 23px;
+    margin-top: 11px;
+    font-weight: 400;
+    color: #000000c2;
+    margin-bottom: 12px;
+}
+.email-section-row {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	padding: 10px 9%;
+}
+.email-section-row input {
+	border: none;
+    outline: none;
+    background: #17117112;
+    padding: 10px 157px;
+    color: #00000091;
+    padding-left: 16px;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+.email-section-row input:hover {
+	box-shadow: 0px 1px 3px 0px #80808052;
+}
+.email-section-row button {
+	margin-left: 1%;
+    display: block;
+    border: 0;
+    outline: 0;
+    background: linear-gradient(45deg, #1a119e, #5046e3d6);
+    color: #fff;
+    border-radius: 37px;
+    font-size: 11px;
+    padding: 9px 26px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
 
 /*-- -------------- --*/
+
+
+
+
 
 /*-- top-navbar-div --*/
 
