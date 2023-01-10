@@ -502,6 +502,148 @@
 
 
 
-/*-- top-navbar-div --*/
+/*-- footer-section-div --*/
+
+
+.footer-section-container {
+	background: #2920ac;
+	padding-top: 45px;
+	padding-bottom: 83px;
+}
+.footer-section-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 9%;
+}
+
+/*-- col-1 --*/
+.footer-logo-text-div {}
+.footer-logo-text-div h3 {
+	font-size: 37px;
+    color: #ffff;
+    font-weight: 300;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.footer-logo-text-div h2 {
+	text-align: center;
+    font-size: 27px;
+    color: #fff;
+    font-weight: 500;
+}
+.footer-logo-icon-div {}
+.footer-logo-icon-div img {
+	 width: 24px;
+    margin: 0 10px;
+    padding-top: 17px;
+    cursor: pointer;
+}
+
+/*-- col-2 --*/
+
+
+.footer-list-div {
+	color: #fff;
+}
+.footer-list-div h3 {
+	font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 19px;
+}
+.footer-list-div ul li{
+	list-style: none;
+	margin-bottom: 7px;
+}
+.footer-list-div ul li a {
+	text-decoration: none;
+    color: #ffffffe8;
+    font-size: 14px;
+}
+.footer-list-div ul li a small {
+	margin-left: 13px;
+    font-size: 14px;
+}
+
+/*-- time-section --*/
+/*.footer-time-list-div {
+	color: #fff;
+}*/
+.footer-time-list-div h3 {
+	font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 19px;
+    color: #fff;
+}
+/*.footer-time-list-div ul li{
+	list-style: none;
+	margin-bottom: 7px;
+}
+.footer-time-list-div ul li a {
+	text-decoration: none;
+    color: #ffffffe8;
+    font-size: 14px;
+}
+.footer-time-list-div ul li a small {
+	margin-left: 13px;
+    font-size: 14px;
+}*/
+
+
+/*-- display-section --*/
+
+.two-ul-list-div {
+	display: flex;
+	align-items: center;
+	color: #fff;
+}
+.list-cl-one li {
+	list-style: none;
+	margin-bottom: 7px;
+}
+.list-cl-one li a {
+	text-decoration: none;
+	color: #ffffffe8;
+    font-size: 14px;
+}
+.list-cl-two li {
+	list-style: none;
+	margin-bottom: 7px;
+}
+.list-cl-two li a {
+	text-decoration: none;
+	color: #ffffffe8;
+    margin-left: 13px;
+    font-size: 14px;}
+
+
+
+/*-- col-3 --*/
+
+/*-- col-4 --*/
+
+.footer-list-div ul span a {
+	text-decoration: none;
+    color: #ffffffe8;
+    font-size: 14px;
+}
+.conatct-section-last-link {
+	margin-top: 24px;
+}
+.footer-list-div li a img {
+	width: 21px;
+    margin-bottom: -5px;
+    margin-right: 5px;
+}
+.conatct-section-last-link span a img {
+	width: 24px;
+    margin-bottom: -7px;
+    margin-right: 0px;
+}
+.three-col-heading {
+	margin-top: -47px;
+}
+
+
 
 /*-- -------------- --*/
